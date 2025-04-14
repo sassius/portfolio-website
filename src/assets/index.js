@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -30,8 +30,10 @@ import hmari from  "./company/hmari.png"
 import aicte from "./company/aicte.png"
 
 import carrent from "./carrent.png";
+import vedavaani from "./vedavaani.jpeg"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import shell from "./shell.png"
 
 export {
   logo,
@@ -65,4 +67,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  vedavaani,
+  shell
 };

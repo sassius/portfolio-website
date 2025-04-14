@@ -17,6 +17,7 @@ import {
   docker,
   meta,
   starbucks,
+  vedavaani,
   hmari,
   initiator,
   aicte,
@@ -26,6 +27,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  shell,
 } from "../assets";
 
 export const navLinks = [
@@ -188,54 +190,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Vedavaani",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Vedavanni is an AI-powered healthcare platform that combines Ayurvedic wisdom with modern medical science to deliver smart, personalized care. It offers features like AI-driven health assistance, emergency support with real-time location sharing, nearby hospital discovery, and personalized health tracking with medicine recommendations.",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -243,11 +203,32 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: vedavaani,
+    source_code_link: "https://github.com/sassius/Health-Care-Ai",
+  },
+  {
+    name: "Custom POSIX Shell",
+    description:
+      "POSIX-compliant shell that allows users to run external commands, execute built-in commands such as cd, pwd, echo, and exit, perform input and output redirection using >, <, and >>, utilize auto-completion for faster command entry, and manage background processes and jobs through process management and job control.",
+    tags: [
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "System Programming",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CLI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shell,
     source_code_link: "https://github.com/",
   },
 ];
